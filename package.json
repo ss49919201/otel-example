@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.50.0",
+    "@opentelemetry/sdk-node": "^0.53.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.4",
     "tsx": "^4.19.1",

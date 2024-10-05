@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:express": "ts-node --require ./express/instrumentation.ts  ./express/main.ts",
-    "start:hono": "ts-node --require ./hono/instrumentation.ts  ./hono/main.ts"
+    "start:hono": "tsx ./hono/main.ts"
   },
   "keywords": [],
   "author": "",
